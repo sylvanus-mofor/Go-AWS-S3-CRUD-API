@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload File</title>
+</head>
+<body>
+    <h2>Upload a File to S3</h2>
+    <form action="http://localhost:8080/upload" method="post" enctype="multipart/form-data">
+        <label for="file">Select file:</label>
+        <input type="file" name="file" id="file" required><br><br>
+        <label for="filename">Enter filename (optional):</label>
+        <input type="text" name="filename" id="filename" required><br><br>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
