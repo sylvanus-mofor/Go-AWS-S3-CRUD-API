@@ -10,7 +10,7 @@ import (
 	"net/http"
 )
 
-const bucket = "go-bucket123" // Change this to your bucket name
+const bucket = "go-bucket123" // Change this to your S3 bucket name
 
 // Root handler for the "/" route
 func rootHandler(w http.ResponseWriter, r *http.Request) {
